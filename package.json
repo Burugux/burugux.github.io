@@ -1,0 +1,24 @@
+{
+  "name": "burugux.github.io",
+  "version": "1.0.0",
+  "description": "andela developer challenge:hello books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Burugux/burugux.github.io.git"
+  },
+  "author": "leslie burugu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Burugux/burugux.github.io/issues"
+  },
+  "homepage": "https://github.com/Burugux/burugux.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.1"
+  }
+}
