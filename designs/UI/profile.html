@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>User</title>
+	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+	 crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="navbar navbar-dark navbar-expand-md bg-success justify-content-between">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+			<span class="navbar-toggtler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse dual-nav w-100">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link pl-0" href="#">Home
+						<span class="sr-only">Home</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<a href="/" class="navbar-brand mx-auto d-block text-center w-100">Hello Books</a>
+		<div class="navbar-collapse collapse dual-nav w-100">
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row my-2">
+			<div class="col-lg-8 order-lg-2">
+				<ul class="nav nav-tabs">
+					<li class="nav-item">
+						<a href="" data-target="#profile" data-toggle="tab" class="nav-link active">Profile</a>
+					</li>
+					<li class="nav-item">
+						<a href="" data-target="#borrowed" data-toggle="tab" class="nav-link">Borrowed Books</a>
+					</li>
+				</ul>
+				<div class="tab-content py-4">
+					<div class="tab-pane active" id="profile">
+						<h5 class="mb-3">Leslie Burugu</h5>
+						<div class="row">
+							<div class="col-md-6">
+								<h6>About</h6>
+								<p>
+									Software engineer & open source enthusiast
+								</p>
+								<h6>Hobbies</h6>
+								<p>
+									Programming,indie music and travelling.
+								</p>
+							</div>
+						</div>
+						<!--/row-->
+					</div>
+					<div class="tab-pane" id="borrowed">
+						<table class="table table-hover table-striped">
+							<thead>
+								<tr>
+									<th>Title</th>
+									<th>Publisher</th>
+									<th>Complete</th>
+									<th>Actions</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>A Brief History of Time</td>
+									<td>Bantam Dell Publishing Group</td>
+									<td>Stephen Hawking</td>
+									<td>
+										<a href="#" class="btn btn-outline-primary">Return</a>
+									</td>
+
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 order-lg-1 text-center">
+				<img data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" class="mx-auto img-fluid img-circle d-block"
+				 alt="avatar">
+				<h6 class="mt-2">Upload a different photo</h6>
+				<label class="custom-file">
+					<input type="file" id="file" class="custom-file-input">
+					<span class="custom-file-control">Choose file</span>
+				</label>
+			</div>
+		</div>
+	</div>
+	<script src="../../node_modules/jquery/dist/jquery.slim.min.js "></script>
+	<script src="../../node_modules/popper.js/dist/popper.min.js "></script>
+	<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+	<script src="../../node_modules/holderjs/holder.min.js"></script>
+</body>
+
+</html>
